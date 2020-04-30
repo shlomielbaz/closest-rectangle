@@ -1,25 +1,15 @@
-# closest-rectangle
-
-Following is a question that is a preparation for the interview at Moovit. The purpose of this question is both to shorten the interview time, and to act as a good filter for the interview, so as to not waste neither your time nor ours.
-
-This exercise should take you a couple of hours. Please perform this exercise yourself, as in the interview we will elaborate regarding it, and moreover, the interview itself will contain other more complex questions.
+# Find the closest rectangle
 
 The Rectangles Store
 
 The requirements of this exercise are for you to implement a class that stores rectangles. A rectangle is defined by the following interface:
 ```
 public interface IRectangle {
-
-int getLeft();
-
-int getTop();
-
-int getRight();
-
-int getBottom();
-
-Properties getProperties();
-
+  int getLeft();
+  int getTop();
+  int getRight();
+  int getBottom();
+  Properties getProperties();
 }
 ```
 During its initialization process, your store will receive a rectangle that represents its bounds (e.g. the area in which other rectangles can appear), and a collection of rectangles. A visual representation of this can be seen at the right.
@@ -31,15 +21,12 @@ Note: *Assume that the solution should support a large number of rectangles, and
 The interface that you should implement is defined as:
 ```
 public interface IRectanglesStore {
-
-void initialize(IRectangle bounds, Collection<IRectangle> rectangles);
-
-IRectangle findRectangleAt(int x, int y);
-
+  void initialize(IRectangle bounds, Collection<IRectangle> rectangles);
+  IRectangle findRectangleAt(int x, int y);
 }
 ```
 
-implement rectangle storage and get the closest-rectangle using binary tree
+the followind snapshots ment to demonstrate the implemention rectangle storage it shows how the program returns the closest-rectangle using binary tree
 
 ![](./snap_1.png?raw=true)
 
