@@ -26,7 +26,7 @@ public interface IRectanglesStore {
 }
 ```
 
-the followind snapshots ment to demonstrate the implemention rectangle storage it shows how the program returns the closest-rectangle using binary tree
+the following snapshots meant to demonstrate the implementation rectangle storage it shows how the program returns the closest-rectangle using binary tree
 
 ![](./snap_1.png?raw=true)
 
